@@ -6,7 +6,7 @@ import axios from "axios"
 //创建实例
 
 const service = axios.create({
-    baseURL:"",
+    baseURL:"http://base.2yuecloud.com/pro-api/",
     timeout:5000
 })
 

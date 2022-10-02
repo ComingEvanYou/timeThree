@@ -4,7 +4,7 @@ module.exports = defineConfig({
   devServer:{
     proxy:{
       "/app-api":{
-        target:"",
+        target:"http://base.2yuecloud.com/pro-api/",
         changeOrigin:true,
         pathRewrite:{
           "^/app-api":""
